@@ -1,9 +1,8 @@
 const button = document.getElementById("button");
 const inputField = document.getElementById("input");
 const loc = document.getElementById("loc");
-//const photo = document.getElementById("photo");
-//const location = (lat, lon) =>
-//`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=d733048a0cb42d`;
+
+const url3 = img => `https://openweathermap.org/img/wn/${img}@2x.png`;
 
 let weatherData;
 let city;
@@ -59,6 +58,7 @@ function fetchWeatherData() {
       kaupunki.appendChild(div1);
       li.appendChild(div3);
       weather.appendChild(li);
+      document.getElementById("img").src = url3(weatherData.weather[0].icon)
 
       //alert();
     });
