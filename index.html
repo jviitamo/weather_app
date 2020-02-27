@@ -1,13 +1,26 @@
 <!DOCTYPE html>
-
+<!-- HTML-koodia ei tarvitse muuttaa tässä harjoituksessa (ellet tahdo) -->
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Arvauspeli</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Päivän sää</title>
+    <link rel="stylesheet" href="weatherapp.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
   </head>
   <body>
-    <a href="weatherapp.html">&#x1F326; Päivän sää</a>
+    <div id="app">
+      <h1>Päivän sää</h1>
+      <div id="city"></div>
+      <img id="img"/>
+      <div id="weather"></div>
+      <div id=two>
+      <input id="input"></input>
+      <button id="button">näytä sää</button>
+      </div>
+      <button id="loc">Sijaintisi</button>
+    </div>
+    <script type="text/javascript" src="weatherapp.js"></script>
   </body>
 </html>
