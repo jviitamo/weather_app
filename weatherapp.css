@@ -15,6 +15,7 @@
     flex-direction: row;
     margin-left: -50px;
     margin-bottom: 20px;
+    border: 1px black solid;
   }
   
   .back {
@@ -39,15 +40,15 @@
     text-align: center;
     font-size: 48px;
     margin-bottom: 50px;
+    font-family: 'Montserrat';
   }
   
   #weather {
     height: 100px;
-    box-shadow: 0px 3px 6px #d1d1d1;
     list-style-type: none;
     margin-top: 30px;
-    font-family: "Roboto";
-    
+    font-family: 'Montserrat';
+
   }
   
   #button {
@@ -56,11 +57,17 @@
     margin: 0;
     position: absolute;
     margin-left: 10px;
+    background-color: white;
+    border: 1px black solid;
+    font-family: 'Montserrat';
   }
   
   #loc {
     width: 200px;
     height: 30px;
+    background-color: white;
+    border: 1px black solid;
+    font-family: 'Montserrat';
   }
   
   #input {
@@ -84,6 +91,6 @@
   
   #city {
     font-size: 30px;
-    font-family: "Roboto";
+    font-family: 'Montserrat';
   }
   

@@ -5,7 +5,7 @@ const loc = document.getElementById("loc");
 const url3 = img => `https://openweathermap.org/img/wn/${img}@2x.png`;
 
 let weatherData;
-let city;
+let city = "q=Helsinki"
 let coords;
 
 function Location() {
@@ -59,7 +59,7 @@ function fetchWeatherData() {
       li.appendChild(div3);
       weather.appendChild(li);
       document.getElementById("img").src = url3(weatherData.weather[0].icon)
-
-      //alert();
-    });
+        });
 }
+
+fetchWeatherData()
